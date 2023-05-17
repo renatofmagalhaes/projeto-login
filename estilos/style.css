@@ -69,3 +69,8 @@ div#formulario > form {
 form > div.campo {
     padding-bottom: 20px;
 }
+
+form > div.campo > span.material-icons {
+    vertical-align:middle;
+
+}
