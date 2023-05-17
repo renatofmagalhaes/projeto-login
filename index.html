@@ -7,16 +7,33 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
         <section id="login">
-            <div id="imagem">
-                
+            <div id="imagem">                
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a)</p>
+                <form action="formulario.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person_outline</span>
+                        <input type="email" name="email" id="iemail" required minlength="3"
+                        maxlength="15" placeholder="seu email">
+                        <label for="iemail">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" required minlength="8"
+                         maxlength="15" placeholder="sua senha">
+                         <label for="isenha">Senha</label>
+                    </div>
+                    <button type="submit">Enviar</button>
+                    <a href="http://www.senha.html">Esqueci minha senha</a>
+                </form>
             </div>
         </section>
     </main>    
