@@ -16,6 +16,7 @@ Telas grandes: acima de 1200px.
     }
     section#login{
         width: 80vw;
+        height: 310px;
     }
 
     section#login > div#imagem {
@@ -36,6 +37,7 @@ Telas grandes: acima de 1200px.
     }
     section#login {
         width: 80vw;
+        height: 330px;
     }
     section#login > div#imagem{
         float: right;
